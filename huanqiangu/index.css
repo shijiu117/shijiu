@@ -1,0 +1,38 @@
+.navbar{
+    margin-bottom: 0px;
+}
+.container{
+    width: 70%;
+    padding: 0;
+}
+h1{
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0 20px 0;
+}
+.ccc{
+    background-color: #f5f5f5;
+    line-height: 30px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+audio{
+    width: 90%;
+}
+.img-circle{
+    animation: zhuan 4s infinite linear;
+}
+@keyframes zhuan{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+.pause{
+    animation-play-state: paused;
+}
+.running{
+    animation-play-state: running;
+}
+.col-md-4{
+    height: 300px;
+}
